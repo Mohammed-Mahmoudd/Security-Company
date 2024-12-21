@@ -1,0 +1,171 @@
+* {
+  font-family: sans-serif;
+  color: #d8c4b6;
+  text-decoration: none;
+}
+
+body {
+  background-color: #1a1a1d;
+  overflow-x: hidden;
+}
+.card {
+  background-color: #343a4069;
+}
+.btn {
+  background-color: #153b44;
+  transition: 100ms;
+}
+.btn:hover {
+  background-color: #153b44;
+  box-shadow: 0 2.5px 5px #153b44;
+  transform: scale(1.03);
+}
+.backgro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/location.jpg");
+}
+.padding {
+  padding: 0.3rem 3rem;
+}
+.h11 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.button {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.round {
+  height: 22rem;
+  border-radius: 22px;
+}
+.margin-space {
+  margin-bottom: 6rem;
+}
+.space {
+  letter-spacing: 3px;
+}
+.parentflex {
+  display: flex;
+}
+.firstsec {
+  padding-top: 50px;
+}
+.fd {
+  margin-top: 6rem;
+}
+.inp {
+  background-color: #153b44;
+}
+
+
+.animate-on-scroll-delay {
+  animation-delay: 0.2s;
+}
+.card {
+  transition-duration: 0.3s;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 7px #1a1a1d;
+}
+.fakebut {
+  background-color: #12373f;
+  padding: 10px;
+  border-radius: 5px;
+}
+.hiddene {
+  display: none;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.animate-on-scroll-delay {
+  animation-delay: 0.2s;
+}
+.bigmargin {
+  margin-bottom: 50px;
+}
+h2 {
+  color: #dfd4cd;
+}
+header {
+  height: 100vh;
+  
+  position: relative;
+  z-index: 4;
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+.darker {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 2;
+  background-color: #000000c7;
+}
+.whited {
+  color: rgba(255, 255, 255, 0.767);
+}
+.big-h1 {
+  font-size: 2rem;
+  font-family: fantasy;
+  
+}
+.hidden {
+  color: #153b44;
+}
+.big-mt {
+  margin-top: 10rem;
+}
+.hover-link {
+  transition-duration: 200ms;
+}
+.hover-link:hover {
+  transform: scale(1.05);
+}
+.fontsmal {
+  font-size: 11px;
+}
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; 
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #333;
+  z-index: 111;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #555;
+}
