@@ -13,13 +13,16 @@ body {
 }
 .btn {
   background-color: #153b44;
+  color: white;
   transition: 100ms;
 }
 .btn:hover {
   background-color: #153b44;
   box-shadow: 0 2.5px 5px #153b44;
   transform: scale(1.03);
+  color: #dfd4cd;
 }
+
 .backgro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets/location.jpg");
@@ -64,10 +67,13 @@ body {
 }
 .card {
   transition-duration: 0.3s;
+  
 }
 .card:hover {
   transform: scale(1.03);
   box-shadow: 0 5px 7px #1a1a1d;
+  box-shadow: 0 10px 15px #153b447a;
+
 }
 .fakebut {
   background-color: #12373f;
@@ -169,3 +175,77 @@ header {
 #backToTop:hover {
   background-color: #555;
 }
+
+
+
+
+.inp-style {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+
+  outline: none;
+}
+form {
+  position: relative;
+}
+label {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  
+}
+
+
+
+.contact-box {
+
+  padding: 40px;
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px #12373f42;
+  border-radius: 10px;
+}
+
+.contact-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-box .user-box {
+  position: relative;
+}
+
+.contact-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.contact-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.contact-box .user-box input:focus ~ label,
+.contact-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #247e91;
+  font-size: 12px;
+}
+
+
