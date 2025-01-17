@@ -1,6 +1,6 @@
 const backToTopButton = document.getElementById('backToTop');
 window.onscroll = function () {
-  if (document.body.scrollTop > 125) {
+  if (window.scrollY > 75) {
     backToTopButton.style.display = 'block';
   } else {
     backToTopButton.style.display = 'none';
