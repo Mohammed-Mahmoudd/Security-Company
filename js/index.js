@@ -36,7 +36,3 @@ backToTopButton.onclick = function () {
   });
 };
 
-
-window.onload = function(){
-    document.getElementById("myVideo").play()
-  }
