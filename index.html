@@ -286,16 +286,24 @@
         </div>
         <div class="col-lg-6 col-sm-12">
           <div class="contact-box">
-  <form>
+  <form id="form">
     <div class="user-box">
-      <input type="text" required="">
-      <label>Name</label>
+      <input type="text" id="name" >
+      <label style="font-size: 15px !important;">Name</label>
+      <p id="errorName"></p>
     </div>
     <div class="user-box">
-      <input type="text"  required="">
-      <label>Email</label>
+      <input type="text" id="email" >
+      <label style="font-size: 15px !important;">Email</label>
+      <p id="errorEmail"></p>
     </div>
-    <input type="submit" class="btn " value="sent ">
+    <div class="user-box">
+      <input type="text" id="message" >
+      <label style="font-size: 15px !important;">Message</label>
+      <p id="errorMessage"></p>
+    </div>
+    <input type="submit" class="btn " id="send" value="sent ">
+
   </form>
 </div>
         </div>

@@ -196,15 +196,22 @@ label {
   
 }
 
-
+body, html {
+  overflow-x: hidden;
+}
 
 .contact-box {
-
+  margin-top: 25px;
   padding: 40px;
   background: rgba(0,0,0,.5);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px #12373f42;
   border-radius: 10px;
+  transition: 0.5s;
+}
+.contact-box:hover {
+  box-shadow: 0 15px 25px #12373f42;
+  transform: scale(1.03);
+
 }
 
 .contact-box h2 {
@@ -249,3 +256,21 @@ label {
 }
 
 
+@media (max-width:750px) {
+  #h11 {
+    align-self: start;
+  }
+  #p11 {
+    align-self: start;
+  }
+  .smallcard {
+    width: 12rem !important;
+  }
+  .del {
+    display: none;
+  }
+  .btnsmall {
+    margin-top: 0 !important; 
+    width: 7rem !important;
+  }
+}

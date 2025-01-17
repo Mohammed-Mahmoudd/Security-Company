@@ -62,7 +62,7 @@
     </nav>
 
     <section
-      class="img-fluid mt-5 backgro d-flex justify-content-center align-items-center"
+      class="img-fluid mt-5 animate-on-scroll backgro d-flex justify-content-center align-items-center"
       style="height: 30rem"
     >
       <a target="_blank" href="https://www.bing.com/ck/a?!&&p=1e2afa5b0cc3b3ddfd82bfb71029112e3d14fa3e22354f65433ef24f7f27ebd0JmltdHM9MTczNDY1MjgwMA&ptn=3&ver=2&hsh=4&fclid=02a9bb41-eb9f-66af-029c-ae46ea716728&psq=google+map&u=a1aHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20v&ntb=1" class="btn fw-bold d-flex flex-column m-5 gap-2">
@@ -83,22 +83,22 @@
         </div>
         <div class="col-lg-6 col-sm-12">
           <div class="contact-box">
-            <form>
+            <form id="form">
               <div class="user-box">
-                <input type="text" required="">
+                <input type="text" id="name" >
                 <label>Name</label>
+                <p id="errorName"></p>
               </div>
               <div class="user-box">
-                <input type="text" required="">
+                <input type="text" id="email" >
                 <label>Email</label>
+                <p id="errorEmail"></p>
               </div>
+              
               <div class="user-box">
-                <input type="text" required="">
-                <label>Subject</label>
-              </div>
-              <div class="user-box">
-                <input type="text"  required="">
+                <input type="text" id="message" >
                 <label>Message</label>
+                <p id="errorMessage"></p>
               </div>
               <input type="submit" class="btn " value="sent ">
             </form>
